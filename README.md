@@ -2,7 +2,7 @@
 
 This project wraps the [Readium LCP liblcp](https://www.edrlab.org/readium-lcp/how-to-lcp-reading-system-provider/) through [dart:ffi](https://dart.dev/guides/libraries/c-interop). 
 
-Important: you need the Edrlab liblcp prebuilt binaries which must be obtained directly from [Edrlab](http://edrlab.org).  
+Important: you need the [Edrlab](http://edrlab.org) liblcp prebuilt binaries which must be obtained directly from Edrlab.  
 
 ## Android integration
 

@@ -1,0 +1,43 @@
+name: mno_lcp_native
+description: This package provide Flutter LCP implementation.
+version: 0.1.0
+homepage: https://github.com/Mantano/mno_commons_dart
+publish_to: none
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+dependencies:
+  fimber: ^0.6.1
+  ffi: ^1.1.2
+  universal_io: ^2.0.4
+  mno_lcp:
+    path: ../mno_lcp_dart
+  mno_shared:
+    path: ../mno_shared_dart
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^1.0.4
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter.
+flutter:
+  # This section identifies this Flutter project as a plugin project.
+  # The 'pluginClass' and Android 'package' identifiers should not ordinarily
+  # be modified. They are used by the tooling to maintain consistency when
+  # adding or updating assets for this project.
+  plugin:
+    platforms:
+      android:
+        package: com.mantano.bookari.r2.mno_lcp_dart
+        pluginClass: MnoLcpDartPlugin
+      ios:
+        pluginClass: MnoLcpDartPlugin
+
+  assets:
+    - assets/
+
